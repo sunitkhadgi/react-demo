@@ -1,0 +1,13 @@
+version: 0.0
+
+os: linux
+
+files:
+  - source: /
+    destination: /opt/docker-app
+
+hooks:
+  BeforeInstall:
+    - location: scripts/build_and_push.sh
+      timeout: 300
+      runas: root
