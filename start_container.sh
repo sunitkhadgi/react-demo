@@ -2,7 +2,7 @@
 set -e
 
 APP_DIR="/home/ubuntu"
-ECR_REPOSITORY="justdemo"
+ECR_REPOSITORY="shreyan-ignite"
 IMAGE_TAG="latest"
 
 cd "${APP_DIR}"
