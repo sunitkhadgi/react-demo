@@ -4,7 +4,7 @@ from boto3.dynamodb.conditions import Key
 from decimal import Decimal
 
 dynamodb = boto3.resource('dynamodb')
-table = dynamodb.Table('Products')
+table = dynamodb.Table('Products-Sunit')
 
 
 def decimal_default(obj):
